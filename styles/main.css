@@ -8,7 +8,7 @@ body {
     margin: auto;
     Max-width: 60%;
     text-align: center;
-    
+
 }
 header{
     background-color: aquamarine;
@@ -17,7 +17,7 @@ header{
 }
 
 header img {
-    width: 100px;
+    width: 150px;
     height: auto;
     float: right;
     margin: 8px;
