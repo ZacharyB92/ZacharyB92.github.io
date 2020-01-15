@@ -6,10 +6,12 @@ body {
     font-family: "Courgette", cursive;
     display: block;
     margin: auto;
-    Max-width: 60%;
-    text-align: center;
-
+    Max-width: 40%;
 }
+h2 {
+    text-align: center;
+}
+
 header{
     background-color: aquamarine;
     text-align: center;
@@ -30,5 +32,5 @@ footer {
     font-size: smaller;
     text-align: center;
     background-color: aquamarine;
-    padding: 0.001em;
+    padding: 0.01em;
 }
