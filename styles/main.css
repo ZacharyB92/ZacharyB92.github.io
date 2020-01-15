@@ -1,5 +1,10 @@
 header img {
-    width: auto;
+    width: 100px;
     height: auto;
     float: right;
+}
+
+footer img{
+    width: 100px;
+    margin: 10px;
 }
