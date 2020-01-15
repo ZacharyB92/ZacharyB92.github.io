@@ -1,10 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Courgette&display=swap');
+
+
+body {
+    font-family: "Courgette", cursive;
+    display: block;
+    margin: auto;
+    Max-width: 40%;
+    text-align: center;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
+
 header img {
     width: 100px;
     height: auto;
     float: right;
+    margin: 8px;
+    
 }
 
-footer img{
-    width: 100px;
-    margin: 10px;
+footer {
+    font-size: smaller;
+    text-align: center;
+    background-color: aquamarine;
 }
