@@ -11,6 +11,9 @@ body {
 h2 {
     text-align: center;
 }
+ul {
+    padding-left: 28%;
+}
 
 header{
     background-color: aquamarine;
