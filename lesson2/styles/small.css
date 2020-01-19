@@ -1,12 +1,39 @@
     body {
         font: size 10pt;
-        text-align: center;
+        text-align: center; background-color: #A3B9C9;
     }
 
     img{
         width: 150px;
         height: auto;
     }
+
+    .head {
+        text-align: center;
+        color: #1F3342 ;
+        font-family: 'Kaushan Script', cursive;
+
+    }    
+
+    .link {
+        color: #1F3342 ;
+    }
+
+    #left{
+        font-size: 5em;
+        color: #F0E7D8;
+        text-emphasis-color: #1F3342 ;
+        text-align: left;
+        padding: 30px;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+
+    .paragraph {
+        color: #1F3342;
+        padding: 2em;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    
 
     #grid {
         display: grid;

@@ -5,6 +5,10 @@ section img {
     height: auto;
 }
 
+body{
+    font-size: 15pt;
+}
+
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
