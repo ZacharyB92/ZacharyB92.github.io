@@ -7,5 +7,5 @@ document.getElementById("currentYear").innerHTML = currentYear;
 var string = document.lastModified;
 var lastUp = new Date(document.lastModified);
 
-document.getElementById("lastUpdate").innerHTML = lastUp;
+document.getElementById("lastUpdated").innerHTML = lastUp;
 console.log(lastUp)
