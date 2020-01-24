@@ -1,38 +1,72 @@
-ul  {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
+
 
 nav ul li a {
-    background-color: blueviolet;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-}
-#gridStuff{
-    display: grid;
-    grid-template-columns: 65% 35%;
+    list-style: none;
+    color: #ffffff;
 }
 
-.leftSide {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    padding: 2em;
-    text-align: center;
-    background-color: #0C5BAF;
+nav ul{
+    list-style: none;
 }
-.rightSide {
-    grid-column-start: 2;
-    background-color: #F4D35E;
+
+main {
+    margin: 100px;
 }
-#headForSite{
-    text-align: left;
+
+.active {
+    background-color: #230A59;
+}
+
+#content-container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+#target-audience-content-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header {
+    margin: 30px;
+    background: linear-gradient(#5C73F2, #829FD9);
     padding: 1em;
+    box-shadow: 5px 5px 5px 5px #8C8C8C;
 }
-#Title{
-    padding: 2em;
+
+header{
+    color: #ffffff;
 }
-body{
-    background-color: #ffffff;
+h2{
+    color: #5C73F2;
+}
+
+#color1{
+    color: #230A59;
+}
+
+.textColor1{
+    color:#5C73F2;
+}
+.textColor2{
+    color: #829FD9;
+}
+.textColor3{
+    color: #230A59;
+}
+
+.textColor4{
+   color: #8C8C8C;
+}
+
+.secondaryFont{
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mainFont{
+    font-family: 'Cinzel', serif;
 }
