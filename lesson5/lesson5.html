@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston | LCW</title>
+    <!-- googel Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header> 
+        <img class="logo" src="images/iconfinder_weather-sunny_274762.png" alt="Site Logo">
+        <div id="motto">
+            <h1>Lawn Chair Weather</h1> 
+            <h5 id="motto">Lawn Chair Don't Care</h3>
+        </div>
+    </header>
+    <nav>
+
+        <ul class="navigation">  
+            <li>
+               <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+           
+            <li>
+                <a href="#" >Home</a>
+            </li>
+            <li class="active">
+                <a  href="preston-4.html">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="grid">
+        <section id="hero">
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span>Current Temperature:</span>
+                    <span id="current-temp"></span>
+                </div>
+                <div>
+                    <span>Wind Speed:</span>
+                    <span id="wind-speed"></span>
+                </div>
+                <div>
+                    <span>Humidity:</span>
+                    <span id="humidity"></span>
+                </div>
+            </article>
+        </section>
+        <section id="five-day-forecast">
+            <h1>Five-Day Forecast</h1>
+           <table>
+               <thead>
+                   <tr>
+                   <th id="day1">Day 1</th>
+                   <th id="day2">Day 2</th>
+                   <th id="day3">Day 3</th>
+                   <th id="day4">Day 4</th>
+                   <th id="day5">Day 5</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td id="temp1">50&deg;</td>
+                       <td id="temp2">50&deg;</td>
+                       <td id="temp3">50&deg;</td>
+                       <td id="temp4">50&deg;</td>
+                       <td id="temp5">50&deg;</td>
+                   </tr>
+               </tbody>
+           </table>
+        </section >
+        <section id="articles">
+            <h2>articles</h2>
+        </section>
+        <section id="contact-info">
+            <h2>Contact info</h2>
+        </section>
+    </div>
+    </main>
+    <footer>
+        &copy; Lawn Chair Weather | <span id="current-date"></span> | Zach Blunt
+    </footer>
+    <script src="scripts/main.js"> </script>
+</body>
+
+</html>
