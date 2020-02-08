@@ -20,6 +20,26 @@
 
     }
 
+    #five-day-forecast{
+        background-color: #B8F8FF;
+        text-align-last: center;
+        color: #595959;
+        opacity: .9;
+        display: flex;
+        justify-content: center;
+    }
 
+    iframe {
+        display: block;
+    }
+
+    #weather-summary{
+        background-color: #F2F2F2;
+        left: 20%;
+        padding: 10px;
+        position: absolute;
+        top: 35%;
+        opacity: .8;
+    }
 
 }

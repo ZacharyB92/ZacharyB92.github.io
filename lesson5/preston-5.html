@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <aside class="hidden">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
     <header> 
         <img class="logo" src="images/iconfinder_weather-sunny_274762.png" alt="Site Logo">
         <div id="motto">
@@ -34,7 +37,7 @@
                 <a href="#" >Home</a>
             </li>
             <li class="active">
-                <a  href="preston-4.html">Preston</a>
+                <a  href="preston-5.html">Preston</a>
             </li>
             <li>
                 <a href="#">Soda Springs</a>
@@ -51,8 +54,7 @@
         </ul>
     </nav>
 
-    <main>
-        <div class="grid">
+    <main class="grid">
         <section id="hero">
             <article id="weather-summary">
                 <h1>Weather Summary</h1>
@@ -71,8 +73,8 @@
             </article>
         </section>
         <section id="five-day-forecast">
-            <h1>Five-Day Forecast</h1>
            <table>
+               <caption>Five-day Forecast</caption>
                <thead>
                    <tr>
                    <th id="day1">Day 1</th>
@@ -94,12 +96,26 @@
            </table>
         </section >
         <section id="articles">
-            <h2>articles</h2>
+            
+            <article id="city-article">
+                <img id="article-image" src="images/prestonIdaho.jfif" alt="pic of preston">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem laboriosam suscipit delectus. Tempore illo, quae voluptatibus magnam quas modi rem aut delectus possimus dignissimos, quasi numquam neque eum esse.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem laboriosam suscipit delectus. Tempore illo, quae voluptatibus magnam quas modi rem aut delectus possimus dignissimos, quasi numquam neque eum esse.
+                </p>
+            </article>
         </section>
-        <section id="contact-info">
-            <h2>Contact info</h2>
+        <section id="contact-info" class="flex">
+            <address>
+                <h2>Lawn Chair Weather</h2> <br>
+                1000 dollar street <br>
+                Awesome City, ID <br>
+                208 - 544 - 6323
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285306!2d-111.7852707850351!3d43.81418897911612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010148905!5m2!1sen!2sus"
+             width="35%" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
         </section>
-    </div>
     </main>
     <footer>
         &copy; Lawn Chair Weather | <span id="current-date"></span> | Zach Blunt
