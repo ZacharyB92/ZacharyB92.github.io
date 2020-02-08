@@ -49,6 +49,14 @@ header{
 .hidden{
     display: none;
 }
+#pancakes{
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFEAE;
+
+}
 
 nav button{
     margin: .2rem 2%;

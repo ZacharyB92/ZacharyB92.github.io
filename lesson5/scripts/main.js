@@ -72,7 +72,7 @@ document.querySelector('#humidity').innerHTML = '10&percnt;';
 // ------------------------------------------Pancake Stuff------------------
 const aside = document.querySelector('aside');
 
-if (currentDate.getDay() === 4) {
+if (currentDate.getDay() === 5) {
     aside.classList.remove('hidden');
     // aside.style.display = 'block';
 // } else {
