@@ -15,6 +15,10 @@
 }
 /* ------------------------------------------ */
 /* ----------------Header------------------- */
+html{
+    min-width: 400px;
+}
+
 .logo{
     width: 100px;
 }
@@ -23,8 +27,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 500px;
-    background-image: url(/lesson5/images/heroimg.jfif); 
+    height: 250px; 
 }
 
 #weather-summary{
@@ -153,7 +156,11 @@ main{
     background-color: #F2F2F2;
     text-align-last: center;
     color: #595959;
+    width: 100%;
+    overflow: hidden;
+    min-height: 400px;
 }
+
 
 #five-day-forecast {
     background-color: #B8F8FF;
@@ -219,3 +226,4 @@ footer{
     font-family: 'Raleway', sans-serif;
     
 }
+
