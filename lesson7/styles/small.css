@@ -189,7 +189,8 @@ main{
 }
 
 section{
-    margin: 10px;
+    margin-top: 10px;
+    padding: 12px;
 }
 
 #article-image{
@@ -212,6 +213,37 @@ section{
 iframe{
     display: none;
 }
+
+section img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  section img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+
+#gallery-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+    
+}
+
+figcaption{
+    font-size: 18pt;
+}
+.gallery img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+
 
 
 /* ---------------------------------- */
