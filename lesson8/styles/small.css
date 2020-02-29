@@ -264,9 +264,13 @@ figcaption {
     padding: 8px 8px 8px 0;
  } 
 
+.thanks{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    font-size: 18pt;
 
-
-
+}
 
 /* ---------------------------------- */
 /* -----------Footer---------------- */
