@@ -7,6 +7,14 @@ article{
     border-color: #7E0094;
 }
 
+footer{
+    text-align: center;
+    padding: 15px;
+    color: #7E0094;
+    font-size: 15pt;
+    
+}
+
 main{
     box-shadow: 0 0 20px #333;
 }
