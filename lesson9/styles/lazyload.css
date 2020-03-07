@@ -3,7 +3,7 @@ article img[data-src] {
   }
   
   article img {
-    filter: blur(0em);
+    filter: blur(0.2em);
     transition: filter 1s;
   }
 

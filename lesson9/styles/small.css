@@ -241,7 +241,7 @@ section img {
 .gallery img {
     width: 100%;
 
-}
+} 
 
 figcaption {
     font-size: 18pt;
@@ -332,4 +332,8 @@ footer {
     text-align: center;
     background-color: #F2F2F2;
     margin: 10px;
+}
+
+#cities img{
+    width: 100%;
 }
