@@ -1,0 +1,19 @@
+img{
+    height: 300px;
+}
+
+footer{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

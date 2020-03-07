@@ -284,3 +284,52 @@ footer {
     font-family: 'Raleway', sans-serif;
 
 }
+
+#cities{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#fishHavenImage{
+    height: 300px;
+    width: 300px;
+}
+
+#prestonImage{
+    height: 300px;
+    width: 300px;
+}
+
+#sodaSpringsImage{
+    height: 300px;
+    width: 300px;
+}
+
+#fishHavenMotto{
+    min-height: 2.5em;
+}
+
+#prestonMotto{
+    min-height: 2.5em;
+}
+
+#sodaSpringsMotto{
+    min-height: 2.5em;
+}
+#fish-haven-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+
+#preston-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+
+#soda-springs-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
