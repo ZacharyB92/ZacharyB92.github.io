@@ -1,4 +1,6 @@
-const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a401ede909567530b4dc74a0420779f5&units=imperial'
+function getCurrentWeather(cityId) {
+const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=' +
+cityId + '&appid=a401ede909567530b4dc74a0420779f5&units=imperial';
 
 fetch(apiURLWeather)
 .then(response => response.json())
@@ -7,6 +9,7 @@ fetch(apiURLWeather)
         console.log(jsObject);
         let currentTemp = jsObject.main.temp;
         let windSpeed = jsObject.wind.speed;
+        let highTemp = jsObject.main.temp_max;
         let windChill = 0;
 
         if (currentTemp < 50 && windSpeed > 3) {
@@ -22,6 +25,10 @@ fetch(apiURLWeather)
             else {
                 document.getElementById("windChill").innerHTML = Math.round(windChill) + '&deg;';
             }
+
+            document.querySelector('#humidity').textContent = jsObject.main.humidity + '%';
+
+            document.getElementById('highTemp').innerHTML = highTemp.toFixed(0) + '&deg;';
 
             document.querySelector('#weatherDesc').textContent =
             jsObject.weather[0].main;
@@ -46,7 +53,8 @@ const weekDay = [
     'Saturday'
 ];
 
-const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a401ede909567530b4dc74a0420779f5&units=imperial'
+const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=' +
+cityId + '&appid=a401ede909567530b4dc74a0420779f5&units=imperial';
 
 fetch(apiURLForecast)
     .then(response => response.json())
@@ -78,3 +86,4 @@ fetch(apiURLForecast)
             );
         }
     );
+    }

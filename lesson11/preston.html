@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 
-<body>
+<body onload="getEvents('Preston'); getCurrentWeather('5604473');">
     <aside class="hidden">
         <p id="pancakes">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
@@ -62,9 +61,15 @@
             </picture>
             <article id="weather-summary">
                 <h1>Weather Summary</h1>
+               
                 <div>
+                    <span>Currently:</span>
                     <span id="weatherDesc"></span>
                     <img id="weatherImage" src="" alt="">
+                </div>
+                <div>
+                    <span>High:</span>
+                    <span id="highTemp"></span>
                 </div>
                 <div>
                     <span>Current Temp:</span>
@@ -77,6 +82,10 @@
                 <div>
                     <span>Wind chill:</span>
                     <span id="windChill"></span>
+                </div>
+                <div>
+                    <span>Humidity:</span>
+                    <span id="humidity"></span>
                 </div>
             </article>
         </section>
@@ -112,13 +121,30 @@
                </tbody>
            </table>
         </section >
+        <section id="cityEvents">
+            <h3>Upcoming Events:</h3>
+            <hr>
+            <ul id="events">
+            </ul>
+        </section>
         <section id="articles">
             
             <article id="city-article">
                 <img id="article-image" src="images/prestonIdaho.jfif" alt="pic of preston">
+                <h3>Preston, Idaho residents look back on 'Napoleon Dynamite'</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem laboriosam suscipit delectus. Tempore illo, quae voluptatibus magnam quas modi rem aut delectus possimus dignissimos, quasi numquam neque eum esse.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem laboriosam suscipit delectus. Tempore illo, quae voluptatibus magnam quas modi rem aut delectus possimus dignissimos, quasi numquam neque eum esse.
+                    Twelve years ago, Preston was a town like any other, a relatively quiet part of 
+                    southern Idaho with a population of just under 5,000 people. Known for That Famous 
+                    Preston Night Rodeo and its close proximity to the site of the Bear River Massacre, 
+                    most of the United States would likely have been unable to locate it on a map.
+                    Things would change for the small Franklin County town with the release of "Napoleon Dynamite" 
+                    in 2004. The quotable comedy film written and directed by Preston native Jared Hess became a 
+                    surprise hit, earning $46.1 million at the box office on a budget of only $400,000. As the site 
+                    of the film, Preston gained a foothold in pop culture, the Herald Journal reported.
+                    "Some people worry that the movie gives us a bad name," Preston resident Rhonda Gregerson said. 
+                    "But really, it gives us a great name. The movie put us right on the map; it's our golden goose."
+                   
+                   <a href="https://archive.sltrib.com/article.php?id=4022003&itype=CMSID" target="_blank">Continue reading article here</a> 
                 </p>
             </article>
         </section>
@@ -139,7 +165,8 @@
     </footer>
     <script src="scripts/webFontLoader.js"></script>
     <script src="scripts/main.js"> </script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/windchill.js"></script> 
+    <script src="scripts/towndata.js"></script>
 </body>
 
 </html>

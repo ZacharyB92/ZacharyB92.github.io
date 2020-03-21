@@ -152,6 +152,7 @@ main {
     max-width: 80%;
     margin: 0 auto;
     font-family: 'Rajdhani', sans-serif;
+    text-align: center;
 }
 
 #preston {
@@ -336,4 +337,25 @@ footer {
 
 #cities img{
     width: 100%;
+}
+#cityEvents{
+    max-width: 325px;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#cityEvents h3{
+    background-color: #FAF47D;
+    margin-top: 0em;
+    padding: .8em 0 .8em 0;
+
+}
+
+#events{
+    padding: 0;
+}
+
+#cityEvents li{
+    list-style-type: none;
 }

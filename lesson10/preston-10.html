@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/lazyload.css">
+    
 </head>
 
-<body>
+<body onload=" getCurrentWeather('5604473');"">
     <aside class="hidden">
         <p id="pancakes">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
@@ -63,8 +63,13 @@
             <article id="weather-summary">
                 <h1>Weather Summary</h1>
                 <div>
+                    <span>Currently:</span>
                     <span id="weatherDesc"></span>
                     <img id="weatherImage" src="" alt="">
+                </div>
+                <div>
+                    <span>High:</span>
+                    <span id="highTemp"></span>
                 </div>
                 <div>
                     <span>Current Temp:</span>
@@ -77,6 +82,10 @@
                 <div>
                     <span>Wind chill:</span>
                     <span id="windChill"></span>
+                </div>
+                <div>
+                    <span>Humidity:</span>
+                    <span id="humidity"></span>
                 </div>
             </article>
         </section>
