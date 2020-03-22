@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston | LCW</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body onload="getEvents('Soda Springs'); getCurrentWeather('5607916');">
+    <aside class="hidden">
+        <p id="pancakes">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header> 
+        <img class="logo" src="images/iconfinder_weather-sunny_274762.png" alt="Site Logo">
+        <div id="motto">
+            <h1>Lawn Chair Weather</h1> 
+            <h5 id="motto">Lawn Chair Don't Care</h3>
+        </div>
+    </header>
+    <nav>
+
+        <ul class="navigation">  
+            <li>
+               <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+           
+            <li>
+                <a href="index.html" >Home</a>
+            </li>
+            <li>
+                <a  href="preston.html">Preston</a>
+            </li>
+            <li class="active">
+                <a href="sodaSprings.html">Soda Springs</a>
+            </li>
+            <li>
+                <a href="fishHaven.html">Fish Haven</a>
+            </li>
+            <li>
+                <a href="stormcenter.html">Storm Center</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="grid">
+        <section id="hero">
+            <!-- <img src="images/heroimg.jfif" alt="Hero Image"> -->
+            <picture>
+                <source srcset="images/sodaSpringsSmall.jpg" media="(max-width: 400px)">
+                <source srcset="images/sodaSpringsMedium.jpg" media="(max-width: 800px)">
+                <source srcset="images/sodaSpringsLarge.jpg" media="(min-width: 801px)">
+                <img src="images/sodaSpringsSmall.jpg" alt="Hero Image"> 
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+               <hr>
+                <div>
+                    <span>Currently:</span>
+                    <span id="weatherDesc"></span>
+                    <img id="weatherImage" src="" alt="">
+                </div>
+                <div>
+                    <span>High:</span>
+                    <span id="highTemp"></span>
+                </div>
+                <div>
+                    <span>Current Temp:</span>
+                    <span id="currentTemp"></span>
+                </div>
+                <div>
+                    <span>Wind Speed:</span>
+                    <span id="windSpeed"></span>
+                </div>
+                <div>
+                    <span>Wind chill:</span>
+                    <span id="windChill"></span>
+                </div>
+                <div>
+                    <span>Humidity:</span>
+                    <span id="humidity"></span>
+                </div>
+            </article>
+        </section>
+        <section id="five-day-forecast">
+           <table>
+               <caption>Five-day Forecast</caption>
+               <thead>
+                   <tr>
+                   <th id="day1">Day 1</th>
+                   <th id="day2">Day 2</th>
+                   <th id="day3">Day 3</th>
+                   <th id="day4">Day 4</th>
+                   <th id="day5">Day 5</th>
+                   </tr>
+               </thead>
+               <tbody>
+                <tr>
+                    <td><img id="img1" src="" alt=""></td>
+                    <td><img id="img2" src="" alt=""></td>
+                    <td><img id="img3" src="" alt=""></td>
+                    <td><img id="img4" src="" alt=""></td>
+                    <td><img id="img5" src="" alt=""></td>
+                </tr>
+            </tbody>
+               <tbody>
+                   <tr>
+                       <td id="temp1">50&deg;</td>
+                       <td id="temp2">50&deg;</td>
+                       <td id="temp3">50&deg;</td>
+                       <td id="temp4">50&deg;</td>
+                       <td id="temp5">50&deg;</td>
+                   </tr>
+               </tbody>
+           </table>
+        </section >
+        <section id="cityEvents">
+            <h3>Upcoming Events:</h3>
+            <hr>
+            <ul id="events">
+            </ul>
+        </section>
+        <section id="articles">
+            
+            <article id="city-article">
+                <img id="article-image" src="images/sodaSpringsArticle.jpg" alt="pic of preston">
+                <h3>Picturing history: Soda Springs, Idaho</h3>
+                <p>
+                    Located in Caribou County of southeastern Idaho, the little town of Soda Springs was an 
+                    unusual but welcome stop on the Oregon Trail. Travelers enjoyed bathing in the natural mineral 
+                    springs that bubble out of the earth there. The site became a landmark along the trail and a 
+                    first destination to travelers in general. This interpretive panel is near the site of Morristown, 
+                    Idaho, a settlement established by Col. Patrick Connor that now lies under the waters of a reservoir. 
+                    | Kenneth Mays. A state of Idaho interpretive panel near the town notes that Col. Patrick E. Connor 
+                    (from Fort Douglas, Utah) established a settlement called Morristown, and adjacent army post near the 
+                    mineral springs in 1863. In subsequent years, the population began to dwindle. In 1870, LDS Church 
+                    President Brigham Young established what is present-day Soda Springs just east of Connor’s location.
+                    In the early 1870s, the Mormon settlers built a cabin to be a summer home for President Young at the 
+                    site he established. He set up the wide streets and square blocks of the settlement.
+                   
+                   <a href="https://www.deseret.com/2017/8/30/20618498/picturing-history-soda-springs-idaho#this-view-shows-the-captive-geyser-at-soda-springs-idaho-a-town-established-by-president-brigham-young" target="_blank">Continue reading article here</a> 
+                </p>
+            </article>
+        </section>
+        <section id="contact-info" class="flex">
+            <address>
+                <h2>Lawn Chair Weather</h2> <br>
+                1000 dollar street <br>
+                Awesome City, ID <br>
+                208 - 544 - 6323
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285306!2d-111.7852707850351!3d43.81418897911612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010148905!5m2!1sen!2sus"
+             width="35%" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        &copy; Lawn Chair Weather | <span id="current-date"></span> | Zach Blunt
+    </footer>
+    <script src="scripts/webFontLoader.js"></script>
+    <script src="scripts/main.js"> </script>
+    <!-- <script src="scripts/windchill.js"></script>  -->
+    <script src="scripts/towndata.js"></script>
+</body>
+
+</html>
