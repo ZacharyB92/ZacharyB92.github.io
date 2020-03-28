@@ -1,0 +1,150 @@
+[
+    {
+        "StreeLine1":"Madrid Spain Temple",
+        "StreetLine2": "Calle Del Templo 2",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "MadridTemple@lds.org",
+        "Services":[
+            "Clothing rental available",
+            "Cafateria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "GroundBreaking"
+            }
+        ],
+        "Schedule":
+            {
+            "Initiatory": "Tuesday - Saturday",
+            "Endowment": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturdday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+                
+
+    },
+    {
+        "StreeLine1":"Madrid Spain Temple",
+        "StreetLine2": "Calle Del Templo 2",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "MadridTemple@lds.org",
+        "Services":[
+            "Clothing rental available",
+            "Cafateria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "GroundBreaking"
+            }
+        ],
+        "Schedule":
+            {
+            "Initiatory": "Tuesday - Saturday",
+            "Endowment": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturdday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+                
+
+    },
+    {
+        "StreeLine1":"Madrid Spain Temple",
+        "StreetLine2": "Calle Del Templo 2",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "MadridTemple@lds.org",
+        "Services":[
+            "Clothing rental available",
+            "Cafateria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "GroundBreaking"
+            }
+        ],
+        "Schedule":
+            {
+            "Initiatory": "Tuesday - Saturday",
+            "Endowment": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturdday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+                
+
+    },
+    {
+        "StreeLine1":"Madrid Spain Temple",
+        "StreetLine2": "Calle Del Templo 2",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "MadridTemple@lds.org",
+        "Services":[
+            "Clothing rental available",
+            "Cafateria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "GroundBreaking"
+            }
+        ],
+        "Schedule":
+            {
+            "Initiatory": "Tuesday - Saturday",
+            "Endowment": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturdday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+                
+
+    }
+]
