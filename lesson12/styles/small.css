@@ -20,11 +20,11 @@ main {
     background-color: #cdd3d5;
 }
 
-#content-container{
-    display: grid;
-    grid-template-columns: 1fr;
+/* #content-container{ */
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
 
-}
+/* } */
 
 #target-audience-content-container{
     display: grid;
