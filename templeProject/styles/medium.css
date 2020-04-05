@@ -22,6 +22,20 @@ main{
     display: none;
 }
 
+.niceRoom{
+    box-shadow: 5px 10px 10px 5px #888888;
+    max-width: 400px;
+    min-width: 250px;
+    width: 95%;
+    margin-right: 2em;
+}
+
+.hero {
+    width: 100%;
+    grid-column: 1/3;
+    max-height: 500px;
+}
+
 .temple-header {
     background-color: #75B8C8;
     grid-column: 1/4;
@@ -38,6 +52,18 @@ main{
     grid-column: 3/3;
     margin: 1em;
    margin-top: 3em;
+}
+
+.templeImg {
+    max-width: 450px;
+    min-height: 250px;
+    width: 100%;
+    padding: 1em;
+    
+}
+
+.serviceImg {
+    width: 450px;
 }
 /* -----------------------------IDs--------------------------------------------------- */
 
@@ -61,8 +87,11 @@ main{
 }
 
 #swiss-temple{
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
     overflow: hidden;
+
 }
 
 #wed-senior {
@@ -75,9 +104,6 @@ main{
     grid-column: 2/2;
 }
 
-#bathroomDetail {
-    grid-column: 3/3;
-}
 
 #contactUS {
     grid-column: 2/3;

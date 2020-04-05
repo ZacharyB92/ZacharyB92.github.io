@@ -87,6 +87,10 @@ main{
     width: 70px;
 }
 
+.left-side {
+    grid-column: 1/1;
+}
+
 .navigation{
     display: block;
     list-style: none;
@@ -112,10 +116,21 @@ main{
     display: block;
 }
 
+.swiss-temple-detail {
+    width: 100%;
+    grid-column: 1/1;
+}
+
 .hero {
     width: 100%;
-    grid-column: 1/4;
     max-height: 500px;
+}
+
+.niceRoom{
+    box-shadow: 5px 10px 10px 5px #888888;
+    max-width: 400px;
+    width: 95%;
+    margin-right: 2em;
 }
 
 .temple-header {
@@ -123,6 +138,17 @@ main{
     padding: 5px;
     padding-left: 2em;
     width: 100%;
+}
+
+.templeImg {
+    min-width: 150PX;
+    max-width: 350px;
+    width: 100%;
+    
+}
+
+.serviceImg {
+    width: 350px;
 }
 /*----------------------------------------------------------------------------------- */
 /* ------------------------------------ID------------------------------------------- */
@@ -149,15 +175,12 @@ main{
 
 #swiss-temple{
     display: flex;
+    min-width: 200px;
     max-width: 400px;
+    width: 100%;
 }
 
-#niceRoom{
-    box-shadow: 5px 10px 10px 5px #888888;
-    max-width: 400px;
-    width: 95%;
-    margin-right: 2em;
-}
+
 #wed-senior {
     padding: 2em;
 }

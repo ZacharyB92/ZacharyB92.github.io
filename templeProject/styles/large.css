@@ -8,6 +8,12 @@
     .left-side{
         grid-row: 4/4;
     }
+
+    .hero {
+        width: 100%;
+        grid-column: 1/4;
+        max-height: 500px;
+    }
     
     .swiss-temple-detail{
         grid-column: 2/4;
@@ -15,6 +21,25 @@
        margin-top: 3em;
     }
 
+    .niceRoom{
+        box-shadow: 5px 10px 10px 5px #888888;
+        max-width: 400px;
+        width: 95%;
+        margin-right: 2em;
+    }
+
+    .left-side{
+        grid-row: 1/3;
+        }
+    
+    .templeImg{
+        width: 350px;
+        height: 200px;
+        }
+    
+    .serviceImg {
+            width: 500px;
+        }
 
     /* -------------------------------------------IDs------------------------ */
     /* #amenities {
@@ -31,29 +56,18 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .left-side{
-    grid-row: 1/3;
+    #bedDetail {
+        grid-column: 1/1;
+    }
+    #livingDetail {
+        grid-column: 2/2;
+    }
+    
+    #bathroomDetail {
+        grid-column: 3/3;
     }
 
-    #image1{
-    width: 350px;
-    height: 200px;
-    }
-
-    #image2{
-    width: 350px;
-    height: 200px;
-    }
-
-    #image3{
-    width: 350px;
-    height: 200px;
-    }
-
-    #image4{
-    width: 350px;
-    height: 200px;
-    }
+   
 
 
 }
