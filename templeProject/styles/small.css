@@ -11,6 +11,11 @@ nav button{
 nav{
     background: #506C64;
     margin: 0 auto;
+    font-family: 'Libre Baskerville', serif;
+}
+
+ h1 h2 h3 {
+    font-family: 'Libre Baskerville', serif;
 }
 
 nav ul{
@@ -38,6 +43,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 header h5 {
@@ -53,6 +59,7 @@ input {
 main{
     margin: 2.5em ;
    margin-top: 3em; 
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
