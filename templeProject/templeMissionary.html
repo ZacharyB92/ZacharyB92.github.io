@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/templelogo.png" alt="logo">
+        <h1>Temple Inn & Suites</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="temples.html">Temples</a>
+            </li>
+            <li>
+                <a href="reservation.html">Reservation</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="home-grid">
+        <section id="bedDetail">
+            <img id="niceRoom" src="images/niceRoom.jpg" alt="Room">
+            <p>
+                We have the most comfortable beds that accomodate to the elderly.
+                Ours beds are zero gravity comfort and low to the ground. The beds 
+                can also adjust to raise or lower for your comfort.
+            </p>
+        </section>
+        <section  id="livingDetail">
+            <img id="niceRoom" src="images/niceRoom2.jpg" alt="living">
+            <p>
+                Who wants to feel like they aren't at home while on vacation?
+                I want to feel the comforts of home where ever I am! Our living room 
+                spaces make sure that you have the comforts of home in our hotels. 
+                We hove uperior WIFI and unlimited movies and games that you can play with top of
+                the line surround sound. Massage couches that make sure you are extreamly relaxed and room service at 
+                every hour of the day.
+            </p>
+        </section>
+        <section id="bathroomDetail">
+            <img id="niceRoom" src="images/niceBathRoom.jpg" alt="bathroom">
+            <p>Our bathrooms are not your typical hotel bathroom, they are better than
+                 the bathrooms that you have at your home! Our toilets are state of the art they are heated
+                 so you will never have to sit on a cold toilet while here. No touch flushing that will make you fell
+                 sanitary always. our showers are amaing and come with a rainforest shower head that will make it feel like you 
+                 are in the middle of a nice tropical storm and the tubs are so comfortable you might fall asleep in them!
+                </p>
+        </section>
+        <section id="contactUS">
+            <form action="thanks.html" method="GET">
+                <h2>Contact Us For More Details</h2>
+                <hr>
+                <div>
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" placeholder="example@domain.com">
+                </div>
+                <div>
+                    <label for="phoneNumber">Phone Number: </label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                  
+                    <div>
+                        <label for="accomodations">Please let us knwo your question.</label>
+                    </div>
+                    <div>
+                        <label for="additionalInfoOrComments"></label>
+                        <textarea name="additionalInfoOrComments" id="additionalInfoOrComments" cols="30"
+                            rows="5"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Sumbit Question" src="https://zacharyb92.github.io/lesson8/thanks.html">
+                        <input type="reset" type="Reset">
+                    </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        &copy; Temple Inn & Suites <input type="submit" value="Click Here to Make a Reservation!">
+    </footer>
+    <script src="scripts/toggle.js"></script>
+</body>
+
+</html>

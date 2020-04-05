@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/templelogo.png" alt="logo">
+        <h1>Temple Inn & Suites</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="temples.html">Temples</a>
+            </li>
+            <li  class="active">
+                <a href="reservation.html">Reservation</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="reservation-page">
+        
+        <form action="confirmation.html" method="GET">
+            <h2>Reservation Form</h2>
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="example@domain.com">
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div>
+                <label for="home">Home State or Country: </label>
+                <input type="text" id="home" name="home" required>
+            </div>
+            <div>
+                <label for="stayDate">Date of Stay: </label>
+                <input type="date" id="stayDate" name="stayDate">
+            </div>
+            <div>
+                <label for="location">Hotel Location:</label>
+                <input list="locations" id="location" name="location" />
+                <datalist id="locations">
+                    <option value="Tucson, AZ">
+                    <option value="Gilbert, AZ">
+                    <option value="Rexburg, ID">
+                    <option value="Indianapolis, IN">
+                </datalist>
+            </div>
+            <div>
+                <div>
+                    <label for="numberOfRoom">Number of Rooms:</label>
+                <input list="numberOfRooms" id="numberOfRoom" name="numberOfRoom" />
+                <datalist id="numberOfRooms">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                        
+                </datalist>
+                </div>
+                <div>
+                    <label for="roomType">Room Selection: </label>
+                    <select name="roomType" id="roomType">
+                        <option value="" selected disabled>Select Room...</option>
+                        <option value="Regular-Suite">Regular Suite</option>
+                        <option value="Master-Suite">Master Suite</option>
+                        <option value="Temple-View-Boss">Temple View Boss</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="accomodations">Accomodations or Comments? </label>
+                    <label for="yes">
+                        <input type="radio" value="yes" name="accomodation" id="yes">
+                        Yes
+                    </label>
+                    <label for="no">
+                        <input type="radio" value="no" name="accomodation" id="no">
+                        No
+                    </label>
+                </div>
+                <div>
+                    <label for="additionalInfoOrComments"></label>
+                    <textarea name="additionalInfoOrComments" id="additionalInfoOrComments" cols="30"
+                        rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Make Reservation" src="https://zacharyb92.github.io/lesson8/thanks.html">
+                    <input type="reset" type="Reset">
+                </div>
+        </form>
+    </main>
+</body>
+
+</html>
+    <footer class="footer">
+        &copy; Temple Inn & Suites 
+    </footer>
+    <script src="scripts/toggle.js"></script>
+</body>
+
+</html>

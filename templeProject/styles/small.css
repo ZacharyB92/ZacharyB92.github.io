@@ -1,0 +1,168 @@
+/*---------------------------------------------------------------------------------*/
+/*-------------------------------- html tags------------------------------------- */
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #506C64;
+}
+
+nav{
+    background: #506C64;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #CDD3C5;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+nav ul li.active a{
+     background-color: #220C10; color: #CDD3C5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h5 {
+    padding-left: 10px;
+}
+
+input {
+    background-color: khaki;
+    margin-left: 1em;
+}
+
+
+main{
+    margin: 2.5em ;
+   margin-top: 3em; 
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* -----------------------------------CLASS---------------------------------------- */
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#506C64;
+    color: #CDD3C5;
+    text-align: center;
+    padding: .5em;
+  }
+
+  .h2Reception {
+      margin-left: 1em;
+  }
+
+.logo{
+    width: 70px;
+}
+
+.navigation{
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.receptionSpace {
+   margin-right: 1em;
+   margin-bottom: 1em;
+}
+
+.responsive li{
+    display: block;
+}
+
+.hero {
+    width: 100%;
+    grid-column: 1/4;
+    max-height: 500px;
+}
+
+.temple-header {
+    background-color: #75B8C8;
+    padding: 5px;
+    padding-left: 2em;
+    width: 100%;
+}
+/*----------------------------------------------------------------------------------- */
+/* ------------------------------------ID------------------------------------------- */
+
+
+#contact-info {
+    padding: 2em;
+    grid-column: 1/4;
+    grid-row: 3/3;
+}
+
+
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#reservation-page {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#swiss-temple{
+    display: flex;
+    max-width: 400px;
+}
+
+#niceRoom{
+    box-shadow: 5px 10px 10px 5px #888888;
+    max-width: 400px;
+    width: 95%;
+    margin-right: 2em;
+}
+#wed-senior {
+    padding: 2em;
+}
+
+#thanks {
+    display: flex;
+    justify-content: center;
+}

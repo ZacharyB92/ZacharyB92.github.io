@@ -1,34 +1,35 @@
+
 [
     {
-        "StreeLine1":"Madrid Spain Temple",
-        "StreetLine2": "Calle Del Templo 2",
-        "City": "Madrid",
-        "State": "",
-        "Country": "Spain",
-        "Zip": "28030",
-        "Telephone": "",
-        "Email": "MadridTemple@lds.org",
+        "TempleName": "Tucson Arizona Temple",
+        "Image": "https://assets.ldscdn.org/08/46/08468858a9a58d5d23f1778407e2be32020b4c4e/tucson_arizona_temple_exterior.jpeg",
+        "StreetLine1":"7281 North Skyline Dr. Tucson AZ 85718 United States",     
+        "Telephone": "(1) 520-395-3900",
+        "Email": "TucsonTemple@lds.org",
         "Services":[
-            "Clothing rental available",
-            "Cafateria available",
-            "Patron housing available",
+            "No clothing rental available",
+            "No cafateria available",
+            "No patron housing available",
             "Distribution center nearby"
         ],
         "History": [
-            {
-                "Date": "4 April 1993",
-                "Milestone": "Announced"
-            },
-            {
-                "Date": "11 June 1996",
-                "Milestone": "GroundBreaking"
-            }
+            
+            "Announced October 6, 2012",
+            "17 October 2015 Ground Breaking",
+            "Dedicated-dedicatory prayer 13 August 2017"
         ],
-        "Schedule":
-            {
-            "Initiatory": "Tuesday - Saturday",
-            "Endowment": "Tuesday - Saturday"
-            },
+        "Baptism": [
+            "9:00 AM - 12:00PM"
+        ],
+        "Endownment": [
+            "8:00 AM",
+            "9:00 AM",
+            "11:00 AM",
+            "12:00 PM"
+        ],
+        "Sealing": [
+            "9:00 AM - 12:00 PM"
+        ],
         "Closures": [
             "Saturdday, 4 April 2020",
             "Tuesday, 23 June 2020 - Monday, 6 July 2020"
@@ -37,114 +38,122 @@
 
     },
     {
-        "StreeLine1":"Madrid Spain Temple",
-        "StreetLine2": "Calle Del Templo 2",
-        "City": "Madrid",
-        "State": "",
-        "Country": "Spain",
-        "Zip": "28030",
-        "Telephone": "",
-        "Email": "MadridTemple@lds.org",
+        "TempleName": "Gilbert Arizona Temple",
+        "Image": "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg",
+        "StreetLine1":"3301 S Greenfield Rd. Gilbert AZ 85297 United States",     
+        "Telephone": "(1) 480-822-5000",
+        "Email": "GilbertTemple@lds.org",
         "Services":[
             "Clothing rental available",
-            "Cafateria available",
-            "Patron housing available",
+            "No cafateria available",
+            "No patron housing available",
             "Distribution center nearby"
         ],
         "History": [
-            {
-                "Date": "4 April 1993",
-                "Milestone": "Announced"
-            },
-            {
-                "Date": "11 June 1996",
-                "Milestone": "GroundBreaking"
-            }
+            
+            "Announced Arpil 10, 2008",
+            "13 November 2010 Ground Breaking",
+            "Dedicatory prayer 2 March 2014"
         ],
-        "Schedule":
-            {
-            "Initiatory": "Tuesday - Saturday",
-            "Endowment": "Tuesday - Saturday"
-            },
+        "Baptism": [
+            "6:00 AM - 3:00PM(Appointments Only)"
+        ],
+        "Endownment": [
+            "8:00 AM",
+            "9:00 AM",
+            "11:00 AM",
+            "12:00 PM",
+            "1:00 PM", 
+            "3:30 PM"
+        ],
+        "Sealing": [
+            "9:00 AM - 2:00 PM"
+        ],
         "Closures": [
             "Saturdday, 4 April 2020",
-            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020",
+            "Rodeo Break 20 April 2020 - 25 April 2020"
         ]
                 
 
     },
     {
-        "StreeLine1":"Madrid Spain Temple",
-        "StreetLine2": "Calle Del Templo 2",
-        "City": "Madrid",
-        "State": "",
-        "Country": "Spain",
-        "Zip": "28030",
-        "Telephone": "",
-        "Email": "MadridTemple@lds.org",
+        "TempleName": "Rexburg Idaho Temple",
+        "Image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rexburg-idaho/800x500/rexburg-temple-776441-wallpaper.jpg",
+        "StreetLine1":"750 S 2nd E. Rexburg ID 83440-5404 United States",     
+        "Telephone": "(1) 208-656-0880",
+        "Email": "RexburgTemple@lds.org",
         "Services":[
             "Clothing rental available",
-            "Cafateria available",
-            "Patron housing available",
+            "No cafateria available",
+            "No patron housing available",
             "Distribution center nearby"
         ],
         "History": [
-            {
-                "Date": "4 April 1993",
-                "Milestone": "Announced"
-            },
-            {
-                "Date": "11 June 1996",
-                "Milestone": "GroundBreaking"
-            }
+            
+            "Announced December 12, 2003",
+            "30 July 2005Ground Breaking",
+            "Dedicated-dedicatory prayer 10 February 2008"
         ],
-        "Schedule":
-            {
-            "Initiatory": "Tuesday - Saturday",
-            "Endowment": "Tuesday - Saturday"
-            },
+        "Baptism": [
+            "9:00 AM - 3:00 PM"
+        ],
+        "Endownment": [
+            "9:00 AM",
+            "11:00 AM",
+            "12:00 PM",
+            "2:00 PM", 
+            "3:00 PM"
+        ],
+        "Sealing": [
+            "9:00 AM - 1:30 PM"
+        ],
         "Closures": [
             "Saturdday, 4 April 2020",
-            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020",
+            "Upcoming Maintenace Not Yet Disclosed"
         ]
                 
 
     },
     {
-        "StreeLine1":"Madrid Spain Temple",
-        "StreetLine2": "Calle Del Templo 2",
-        "City": "Madrid",
-        "State": "",
-        "Country": "Spain",
-        "Zip": "28030",
-        "Telephone": "",
-        "Email": "MadridTemple@lds.org",
+        "TempleName": "Indianapolis Indiana Temple",
+        "Image": "https://assets.ldscdn.org/63/f2/63f214e9256712720a12352ee0032ddc9fc0fd04/indianapolis_indiana_temple.jpeg",
+        "StreetLine1":"11565 Temple Dr Carmel IN 46032-8859 United States",     
+        "Telephone": "(1) 317-993-3800",
+        "Email": "IndiTemple@lds.org",
         "Services":[
-            "Clothing rental available",
-            "Cafateria available",
-            "Patron housing available",
-            "Distribution center nearby"
+            "No clothing rental available",
+            "No cafateria available",
+            "No patron housing available",
+            "No distribution center nearby"
         ],
         "History": [
-            {
-                "Date": "4 April 1993",
-                "Milestone": "Announced"
-            },
-            {
-                "Date": "11 June 1996",
-                "Milestone": "GroundBreaking"
-            }
+            
+            "Announced October 2, 2010",
+            "29 September 2012 Ground Breaking",
+            "Dedicated-dedicatory prayer 23 August 2015"
         ],
-        "Schedule":
-            {
-            "Initiatory": "Tuesday - Saturday",
-            "Endowment": "Tuesday - Saturday"
-            },
+        "Baptism": [
+            "8:30 AM - 1:00PM(Appointments Only)"
+        ],
+        "Endownment": [
+            "8:00 AM",
+            "9:00 AM",
+            "11:00 AM",
+            "12:00 PM",
+            "1:45 PM"
+        ],
+        "Sealing": [
+            "9:00 AM - 2:30 PM"
+        ],
         "Closures": [
             "Saturdday, 4 April 2020",
-            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020",
+            "Monday, 15 August 2020 - Friday, 2"
         ]
                 
 
     }
+   
 ]
